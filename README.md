@@ -36,3 +36,7 @@ Instalando Styled-component para or arquivos CSS
 ### `npm install react-bootstrap` 
 
 Instalando o bootstrap para REACT
+
+### `npm install next`
+
+Instalando NEXT
