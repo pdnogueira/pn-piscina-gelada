@@ -1,18 +1,15 @@
 import React, { useEffect, useState } from 'react'
-import useForm from 'react-hook-form'
 import { FormControl, InputGroup, Container, Row, Col, Button } from 'react-bootstrap'
 
 const Home = () => {
 
-    const [products, setProduct] = useState([
-        { id: 1, produto: 'alface', price: '10,31' }
-    ]);
+    const [products, setProduct] = useState([]);
 
     const setDataApi = async () => {
         const data = await fetch('http://localhost:8080/api/mercado');
         const items = await data.json();
 
-        setItems(items);
+        setProduct(items);
     }
 
     useEffect(() => {
