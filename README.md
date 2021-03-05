@@ -40,3 +40,7 @@ Instalando o bootstrap para REACT
 ### `npm install next`
 
 Instalando NEXT
+
+## npm install --save-dev --save-exact prettier
+
+Instalando o PRETTIER
